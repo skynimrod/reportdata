@@ -1,6 +1,6 @@
 #!/bin/sh
-time=`date "+%Y-%m-%d %H:%M:%S "`
-echo "${time}" > aa.txt
+date=`date "+%Y-%m-%d"`
+echo "${time}"
 if [ -n "$1" ]; then  
     echo "commit $1!";
     git add .;
