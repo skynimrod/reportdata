@@ -1,0 +1,10 @@
+﻿if [ $1 != '' ] 
+then
+        msg = $1;
+else
+        msg = 'bug';
+fi
+
+echo $msg;
+
+
